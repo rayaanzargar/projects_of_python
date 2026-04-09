@@ -1,0 +1,5 @@
+height=int(input("Enter your height in cm: "))
+weight=int(input("Enter your weight kgs: "))
+Bmi=(weight/height*2)
+str_BMI=str(Bmi)
+print("Your BMI is: "+ str_BMI)
